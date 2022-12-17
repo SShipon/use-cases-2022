@@ -4,7 +4,7 @@ import logo from '../../assets/icon/logo (2).svg'
 import logo2 from '../../assets/icon/g2-winter-2022 (1).svg'
 const NavigationBar = () => {
     const navBarItems = <React.Fragment>
-            <li><Link>Use cases</Link></li>
+            <li><Link to='/'>Use cases</Link></li>
             <li><Link>Pricing</Link></li>
             <li><Link>Resources</Link></li>
             <li><Link>What's new</Link></li>
