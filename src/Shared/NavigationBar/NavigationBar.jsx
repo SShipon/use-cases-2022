@@ -11,7 +11,7 @@ const NavigationBar = () => {
             <li><Link>Start Ryting<i class="fa-solid fa-arrow-right font-bold"></i></Link></li>     
     </React.Fragment>
     return (
-        <div className="navbar bg-base-100">
+        <div className="navbar bg-base-100 mx-16">
         <div className="navbar-start">
           <div className="dropdown">
             <label tabIndex={0} className="btn btn-ghost lg:hidden">
